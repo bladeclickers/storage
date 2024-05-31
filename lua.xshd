@@ -4,20 +4,20 @@
   <Color name="Comment" foreground="#ff999999" exampleText="-- comment" />
   <Color name="String" foreground="#fff99157" />
   <Color name="Punctuation" />
-  <Color name="MethodCall" foreground="#ffffcc66" fontWeight="bold"/>
+  <Color name="MethodCall" foreground="#ffffcc66"/>
   <Color name="NumberLiteral" foreground="#ff99cc99"/>
-  <Color name="NilKeyword" fontWeight="bold"/>
-  <Color name="Keywords" fontWeight="bold" foreground="#ff6699cc" />
+  <Color name="NilKeyword"/>
+  <Color name="Keywords" foreground="#ff6699cc" />
   <Color name="GotoKeywords" foreground="#ffcc99cc" />
-  <Color name="Visibility" fontWeight="bold" foreground="#fff99157"/>
+  <Color name="Visibility" foreground="#fff99157"/>
   <Color name="TrueFalse" fontWeight="bold" foreground="#ff66cccc" />
 
   <RuleSet name="CommentMarkerSet">
-    <Keywords fontWeight="bold" foreground="#fff2777a">
+    <Keywords foreground="#fff2777a">
       <Word>TODO</Word>
       <Word>FIXME</Word>
     </Keywords>
-    <Keywords fontWeight="bold" foreground="#fff2777a">
+    <Keywords foreground="#fff2777a">
       <Word>HACK</Word>
       <Word>UNDONE</Word>
     </Keywords>
